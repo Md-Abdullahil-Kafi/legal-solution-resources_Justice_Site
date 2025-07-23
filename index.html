@@ -10,13 +10,13 @@
 </head>
 <body>
     <header>
-        <nav class="flex justify-between w-[1140px] m-auto items-center mt-4">
+        <nav class="flex lg:justify-between lg:w-[1140px] m-auto items-center mt-4 flex-col justify-center gap-y-8 lg:flex-row md:flex-row md:justify-around">
             <div class="logo flex items-center gap-3">
                 <img class="size-10" src="images/business.png" alt="">
                 <span class="font-bold font-serif text-[24px]">Justic</span>
             </div>
-            <div class="nav-items">
-                <ul class="flex gap-6 font-semibold">
+            <div class="nav-items ">
+                <ul class="flex lg:gap-6 gap-2 font-semibold flex-col lg:flex-row flex-col">
                     <li><a class="flex hover:text-[#B68C5A]" href="#home">Home <img src="images/right arrow.png" alt=""></a></li>
                     <li><a class="flex hover:text-[#B68C5A]" href="#services">Secvices <img src="images/right arrow.png" alt=""></a></li>
                     <li><a class="flex hover:text-[#B68C5A]" href="#cases">Cases <img src="images/right arrow.png" alt=""></a></li>
@@ -25,14 +25,14 @@
                 </ul>
             </div>
             <div class="cta-btn">
-                <button class="px-7 py-2 rounded-2xl border-0 bg-[#B68C5A] hover:bg-[#c9a171] hover:scale-110  hover:bg-[#c9a171] hover:scale-110  hover:bg-[#c9a171] hover:scale-110  text-amber-50 hover:bg-[#a1825b]" type="submit">Free Consultation</button>
+                <button class="px-7 py-4 rounded-2xl border-0 bg-[#B68C5A] hover:bg-[#c9a171] hover:scale-110  hover:bg-[#c9a171] hover:scale-110  hover:bg-[#c9a171] hover:scale-110  text-amber-50 hover:bg-[#a1825b]" type="submit">Free Consultation</button>
             </div>
             
         </nav>
 
         <section class="">
             
-                <div class="bg-[url('images/banner.png')] bg-center w-[1170px] h-[550px] m-auto mt-6 rounded-2xl px-[239px] py-[104px]" >
+                <div class="bg-[url('images/banner.png')] bg-cover bg-no-repeat lg:w-[1170px] lg:h-[550px] m-auto mt-6 rounded-2xl lg:px-[239px] lg:py-[104px] p-9 w-[95%] " >
                     <h1 class="text-[56px] font-extrabold text-blue-200" >We Provide Effective Legal Solutions</h1>
                     <p class="py-5 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                     <form action="" class="flex gap-4">
@@ -47,8 +47,8 @@
     <main>
         <section>
             <h3 class="font-extrabold text-[40px] text-center mt-[120px] mb-[24px]">The Legal Practice Area</h3>
-        <p class="w-[714px] text-center m-auto mb-[40px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-        <div class="card-aria lg:w-[1140px] m-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
+        <p class="lg:w-[714px] p-3 text-center m-auto mb-[40px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="card-aria lg:w-[1140px] lg:m-auto grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center p-5 md:p-2 lg:p-0">
             <div class="card w-[401px] p-[71px] text-center border-[#E7E7E7] border-b-2">
                 <div class="flex justify-center mb-[32px]"><img src="images/business.png " alt="Business Law"></div>
                 <div class="mb-[32px]">
@@ -103,16 +103,16 @@
 
         <section class="client">
             <h3 class="text-4xl font-bold text-center my-8">What Our Client Say</h3>
-            <p class="text-center max-w-[714px] m-auto">
+            <p class="text-center max-w-[714px] m-auto p-3 lg:p-0 mb-10">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
             </p>
-            <div class="relative h-[500px] w-[1170px] m-auto mb-12 mt-10 bg-[url('/images/banner.png')] bg-cover bg-center rounded-2xl overflow-hidden">
+            <div class=" w-[95%] m-auto relative lg:h-[500px] lg:w-[1170px] lg:m-auto md:w-[95%] md:m-auto bg-[url('/images/banner.png')] bg-cover bg-center rounded-2xl overflow-hidden">
             <div class="absolute inset-0 bg-black opacity-50 "></div>
             <div class="relative z-10 text-white flex items-center h-full">
-                <div class="left flex items-center p-5">
+                <div class="left flex items-center p-5 hidden md:block">
                     <i class="fa-solid fa-arrow-left cursor-pointer  hover:bg-[#c9a171] hover:scale-110 p-4"></i>
                 </div>
-                <div class="middle-contect flex items-center flex-col justify-center h-full mx-[135px] my-[96px] gap-3 text-center">
+                <div class="middle-contect flex items-center flex-col justify-center h-full md:mx-[135px] md:my-[96px] gap-3 text-center p-10">
                     <img class="p-1 bg-amber-100 rounded-[50%] h-[80px]" src="images/user.png" alt="">
                     <h1 class="text-2xl font-extrabold ">Awlad Hossain</h1>
                     <p>UIX Designer</p>
@@ -123,7 +123,7 @@
                         <div class="item-icon h-0.75 w-10 bg-amber-50 cursor-pointer hover:bg-[#c9a171] hover:scale-110 " id="div-3"></div>
                     </div>
                 </div>
-                <div class="left flex items-center p-5">
+                <div class="left flex items-center p-5 hidden md:block">
                     <i class="fa-solid fa-arrow-right cursor-pointer hover:bg-[#c9a171] hover:scale-110 p-4"></i>
                 </div>
             </div>
@@ -131,13 +131,13 @@
         </section>
 
         <section>
-            <div class="w-[1170px] m-auto ">
+            <div class="lg:w-[1170px] lg:m-auto w-[95%] m-auto pt-10">
                 <div class="heading text-center">
-                    <h1 class="font-extrabold text-[40px]">Frequently Asked Any Questions</h1>
-                    <p class="w-[714px] m-auto mb-[64px] mt-[24px]" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <h1 class="font-extrabold text-[40px] my-3">Frequently Asked Any Questions</h1>
+                    <p class="lg:w-[714px] lg:mx-auto p-3  lg:pb-6 " >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
-                <div class="questions flex gap-7 ">
-                    <div class="question w-[570px]  ">
+                <div class="questions lg:flex lg:flex-row flex flex-col-reverse gap-7 md:items-center ">
+                    <div class="question md:w-[570px]  ">
                         <div class="card p-8 bg-sky-100 rounded-[8px] mb-7.5">
                             <div class="heading flex justify-between items-center font-bold text-2xl mb-3.5">
                                 <h1 class="">1. Are application fee waivers available?</h1>
@@ -178,46 +178,46 @@
         </section>
 
 
-        <section class="Contact-us w-[1170px] m-auto mb-28">
+        <section class="Contact-us lg:w-[1170px] lg:m-auto mb-28 p-3">
             <div class="heading text-center">
                     <h1 class="font-extrabold text-[40px]">Contact With Us</h1>
-                    <p class="w-[714px] m-auto mb-[64px] mt-[24px]" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <p class="md:w-[714px] md:mx-auto mb-[64px] mt-[24px]" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
-                <div class="questions flex gap-7 ">
-                    <div class="question w-[570px]  bg-sky-100 rounded-[8px]  grid grid-cols-2">
-                        <div class="card text-center py-16 px-14 ">
+                <div class="Feedback lg:flex  w-[95%] mx-auto gap-7 ">
+                    <div class="question lg:w-[570px]  bg-sky-100 rounded-[8px] grid grid-cols-2">
+                        <div class="card text-center  flex flex-col items-center justify-center p-4">
                             <div class="img flex justify-center">
                                 <img src="images/location.png" alt="">
                             </div>
-                            <h1 class="font-bold mb-4 mt-4">Address</h1>
-                            <p>A108 Adam Street,New York, NY 535022</p>
+                            <h1 class="font-bold my-3">Address</h1>
+                            <p>A108 Adam Street,<br> New York, NY 535022</p>
                         </div>
-                        <div class="card text-center py-16 px-14 border-[#E7E7E7] border-b-2 border-l-2">
+                        <div class="card text-center flex flex-col items-center justify-center p-4 border-[#E7E7E7] border-b-2 border-l-2">
                             <div class="img flex justify-center">
                                 <img src="images/call.png" alt="">
                             </div>
-                            <h1 class="font-bold mb-4 mt-4">Call Us</h1>
-                            <p>+88 01750 00 00 00 +88 01750 00 00 00</p>
+                            <h1 class="font-bold my-3">Call Us</h1>
+                            <p>+88 01750 00 00 00 <br> +88 01750 00 00 00</p>
                         </div>
-                        <div class="card text-center py-16 px-14  border-[#E7E7E7] border-t-2 border-r-2">
+                        <div class="card text-center flex flex-col items-center justify-center p-4 border-[#E7E7E7] border-t-2 border-r-2">
                             <div class="img flex justify-center">
                                 <img src="images/email.png" alt="">
                             </div>
-                            <h1 class="font-bold mb-4 mt-4">Email Us</h1>
-                            <p>info@gmail.com info@gmail.com</p>
+                            <h1 class="font-bold my-5">Email Us</h1>
+                            <p>info@gmail.com <br> info@gmail.com</p>
                         </div>
-                        <div class="card text-center py-16 px-14 ">
+                        <div class="card text-center flex flex-col items-center justify-center p-4 ">
                             <div class="img flex justify-center">
                                 <img src="images/time.png" alt="">
                             </div>
-                            <h1 class="font-bold mb-4 mt-4">Working Hour</h1>
-                            <p>Mon-Fri: 9AM to 5PM Sunday: 9AM to 1 PM</p>
+                            <h1 class="font-bold my-5">Working Hour</h1>
+                            <p>Mon-Fri: 9AM to 5PM <br> Sunday: 9AM to 1 PM</p>
                         </div>
                         
                         
                         
                     </div>
-                    <div class="form w-full flex-1">
+                    <div class="form w-full flex-1 mt-7 lg:mt-0">
                         <form >
                             <input type="text" placeholder="Your Name" required class="focus:outline-none w-[100%] bg-sky-50 rounded-[8px] p-6 mb-7">
                             <input type="email" placeholder="Your Email" required class="focus:outline-none w-[100%] bg-sky-50 rounded-[8px] p-6 mb-7">
@@ -236,7 +236,7 @@
 
 
     <footer class="bg-black">
-        <div class="footer w-[1170px] m-auto py-[120px] flex gap-[81px]">
+        <div class="footer lg:w-[1170px] lg:m-auto lg:py-[120px] flex gap-[81px] flex-col p-8 text-center md:flex-row md:text-start ">
             <div class="card text-white flex-1">
                 <img src="images/logo.png" alt=""> <br>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
